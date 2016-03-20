@@ -1,9 +1,13 @@
 @import "../bower_components/susy/sass/susy";
+@import "layout-variables";
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
-@import "animations";
+// @import "animations";
 @import "../bower_components/font-awesome/scss/font-awesome";
-@import "../bower_components/sassier-buttons/scss/sassy-buttons";
-@import "normalize";
+// @import "../bower_components/sassier-buttons/scss/sassy-buttons";
+@import "normalize"; 
+@import "legacycss"; 
+// @import "new-portfolio-layout";
+
   
  
 $susy: (
@@ -22,28 +26,4 @@ global-box-sizing: border-box
  // end of susy default grid
 
  
-.testing {
-  @include span(12);
-  }
-
-.testing2 {
-  @include span(2);
-  margin-left: span(4);
-  
-} 
  
-
-  // this is the most uptodate site
- 
-.testing3 {
-  @include span(2);
-  margin-left: span(6);
-border:1px solid red;
-&.cool{} 
-  @include breakpoint(20em) {
-    @include span(4); 
-    margin-left: span(3);
-    display: block;
-    border:2px solid green;
-  }
-} 
