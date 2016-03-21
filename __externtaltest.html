@@ -1,0 +1,44 @@
+<html>
+   <head>
+      <title>Handlebars Demo</title>
+   
+   <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/handlebars.js"></script>
+</head>
+<body>
+
+<div id="output"><h1>Loading...</h1></div>
+
+<div id="images"></div>
+
+
+<script id="ht" type="text/x-handlebars-template">
+
+<div id="images">
+{{#each items}}
+	<img src="{{ media.m }}">
+{{/each}}
+</div>
+
+</script>
+
+
+<script>
+(function() {
+	var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+	$.getJSON( flickerAPI, {
+		tags: "mount rainier",
+		tagmode: "any",
+		format: "json"
+	})
+    .done(function( data ) {
+    	var src = document.getElementById("ht").innerHTML.trim();
+		var template = Handlebars.compile(src);
+		var html = template( data );    
+		$('#output').html( html );
+    });
+})();
+</script>
+
+</body>
+</html>

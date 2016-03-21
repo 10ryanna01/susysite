@@ -1,0 +1,107 @@
+<html>
+   <head>
+      <title>Handlebars Demo</title>
+
+      
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+</head>
+<body>
+
+<!-- partial tutorial @ 27min https://www.youtube.com/watch?v=4HuAnM6b2d8
+ --> 
+
+<div id="output" style="border:1px solid red;">
+
+
+
+
+ 
+
+
+<h1>Loading...</h1>
+
+
+<!-- end output wrapper -->
+</div>
+
+
+
+
+
+
+<script id="ht" type="text/x-handlebars-template">
+
+
+   
+
+
+{{#each objects }}
+  Failover content
+
+
+ 
+                    <div class="timeline-item">
+                        <div class="timeline-graphic"></div>
+
+                        <div class="pinstop"></div>
+
+                        <p class="date-titleY"><strong>2015</strong></p>
+
+                        <p class="date-title"><strong>{{companyDate}} </strong></p>
+
+                        <p class="company-name">
+                            <div class="data-details">{{{companyTitle}}}</div>
+                        <strong>    {{{companyDesc}}}    </strong>
+
+                        </p>
+
+                        <p class="role-description">
+ 
+                              {{{companyExpertise}}}
+                                                     
+                               
+
+                        </p>
+                                
+                        <div id="readmore-33">
+                            <p class="role-description">
+                            <strong> {{{companyProjectoutline}}}     </strong> </p>
+
+                            <p class="role-description">
+                            <strong> {{{companySkillsapplied}}}        </strong> </p>
+                        </div><a class="sassybutton switchit-33" id=
+                        "hitit-33"><span class="rmore-33 fa fa-plus"></span> <span class=
+                        "rmore-33 fa fa-minus" style=
+                        "display: none;"></span></a>
+                    </div><!--  end time line item -->
+
+{{/each}}
+
+</script>
+
+
+ 
+ <script type="text/javascript">
+
+ $(document).ready(function() { 
+    
+
+   $.getJSON("jerbstuff.json", function( data ) {
+
+    console.log('got your json bro')
+        var src = document.getElementById("ht").innerHTML.trim();
+     
+
+        var template = Handlebars.compile(src);
+
+   
+
+        var html = template( data );    
+        $('#output').html( html );
+    });
+
+</script>
+
+</body>
+</html>

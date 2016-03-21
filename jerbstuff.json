@@ -1,0 +1,42 @@
+{
+    "objects": [
+        {
+        	"DataOrder": "1",
+            "companyDate": "date i was there",
+            "companyTitle": " Noths",
+            "companyDesc": "seeling sheit",
+             "companyExpertise": " what they doo",
+             "companyProjectoutline": " this is the project outline",
+             "companySkillsapplied": " this was the skills applied"
+                     
+            
+        }
+       
+    ],
+
+    "otherstuff": [
+
+
+      {
+                "DataOrder": "2",
+            "companyDate": "1999",
+            "companyTitle": "wurdbro.",
+            "companyDesc": " music n sheeit",
+             "companyExpertise": " grunge",
+             "companyProjectoutline": "  epic",
+             "companySkillsapplied": " awesome "
+                     
+          },
+
+          {
+                "DataOrder": "3",
+            "companyDate": "1899",
+            "companyTitle": "ye olde flok.",
+            "companyDesc": "  old mofo",
+             "companyExpertise": " survival ",
+             "companyProjectoutline": "  gold gold gold",
+             "companySkillsapplied": " mystery  "
+                     
+          }
+          ]
+}

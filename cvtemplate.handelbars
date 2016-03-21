@@ -1,0 +1,17 @@
+
+<script id="data-details" type="text/x-handlebars-template">
+<body>
+
+  {{debug}}
+
+
+
+{{#each objects}}
+{{Title}}
+ {{{companyDesc}}}
+{{/each}}
+
+
+ 
+ </body>
+ </script>

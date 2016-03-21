@@ -1,0 +1,44 @@
+<html>
+   <head>
+      <title>Handlebars Demo</title>
+
+      
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+</head>
+<body>
+
+<div id="output"><h1>Loading...</h1></div>
+
+<div id="images"></div>
+
+
+<script id="ht" type="text/x-handlebars-template">
+
+
+{{#each objects}}
+<h1>{{Title}}</h1>
+ <h2> {{{companyDesc}}} </h2>
+{{/each}}
+
+</script>
+
+
+<script>
+$(document).ready(function() { 
+	
+
+   $.getJSON("jerbstuff.json", function( data ) {
+
+   	console.log('got your json bro')
+    	var src = document.getElementById("ht").innerHTML.trim();
+		var template = Handlebars.compile(src);
+		var html = template( data );    
+		$('#output').html( html );
+    });
+ });
+</script>
+
+
+</body>
+</html>

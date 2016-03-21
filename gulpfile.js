@@ -11,7 +11,15 @@ compass = require('gulp-compass'),
 
 gulp.task('compress', function() {
 	// dont forget to add modernizer here
-    return gulp.src(['./js/jquery.js', './js/mainfunctions.js', './js/bootstrap.js', './js/jquery.mixitup.js', './js/jquery.fancybox.js'])
+    return gulp.src([
+    	'./js/jquery.js', 
+     './js/bootstrap.js',
+     './js/jquery.fancybox.js', 
+    	'/js/jquery.mixitup.js' ,   	 
+    	 './js/mainfunctions.js',     		 
+    	   	'./js/modernizr.js' 
+
+    	])
         .pipe(gp_concat('prettyjs.js'))
         .pipe(gulp.dest('./web'))
         .pipe(gp_rename('index.js'))
@@ -29,7 +37,7 @@ var modernizr = require('gulp-modernizr');
 gulp.task('modernizr', function() {
     gulp.src('./js/*.js')
         .pipe(modernizr())
-        .pipe(gulp.dest("./web"))
+        .pipe(gulp.dest("./js"))
 });
 
  

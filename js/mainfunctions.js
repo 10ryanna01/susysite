@@ -74,7 +74,7 @@ $("#goToTop").click(function(event){
         event.preventDefault();
         $('html, body').animate({scrollTop:$(this.hash).offset().top}, 0);
     });
-	//initiate smooth scroll
+    //initiate smooth scroll
  
 
     // toggle MixItUp selected filter
@@ -317,7 +317,6 @@ $("#goToTop").click(function(event){
             height: "toggle",
             opacity: "toggle"
         }, "slow");
-
         $(".rmore-29").toggle();
         // Animation complete.
     });    
@@ -352,20 +351,13 @@ $("#goToTop").click(function(event){
     }); 
   
   $("#hitit-33, .switchit-33").click(function() {
-         $(this).next(".readmore-33").finish().slideToggle("slow");
-
         $("#readmore-33").animate({
             height: "toggle",
             opacity: "toggle"
         }, "slow");
-
         $(".rmore-33").toggle();
         // Animation complete.
     });
-
-
-
-
 
 
 
@@ -430,17 +422,6 @@ $("#goToTop").click(function(event){
 
  // end functions
   
-});
-
-
-
-$(document).ready(function () {
-    $(".box-content").hide();
-console.log('ready to rock!');
-// https://jsfiddle.net/arunpjohny/Huvak/
-    $(".open-close").click(function () {
-        $(this).next(".box-content").finish().slideToggle("slow");
-    });
 });
 
 
