@@ -1,0 +1,17 @@
+{
+    "objects": [{
+        "companyTitle": "my next gig",
+        "companyDate": "march",
+        "companySkillsapplied": "html css the usual bread and butter",
+        "companyProjectoutline": "Brought into the Dennis Digital Team to revamp (skin and theme) the BuyaCar.co.uk website. The BuyaCar platform sits on a legacy JSP templating system, so being brought up to speed by their Java Developer on how the pages layouts were populated gave clear context for my Front\u00adEnd skill set to assess how best to retheme the site",
+        "companyExpertise": "what they doo"
+    }],
+
+    "diffdataset": [{
+        "companyTitle": "PWC",
+        "companyDate": "blah blah blah",
+        "companySkillsapplied": "brutall",
+        "companyProjectoutline": "la la la la la la",
+        "companyExpertise": "asdfdasasdfsadf"
+    }]
+}
