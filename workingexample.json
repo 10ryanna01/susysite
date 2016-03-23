@@ -1,0 +1,93 @@
+{
+    "list_year16": [{
+        "companyTitle": "asdfasdfdas",
+        "companyDate": "sfgsdgd",
+        "companySkillsapplied": "asdf asdf",
+        "companyProjectoutline": "\u200bXHTML\/CSS, SEO Friendly techniques, configuring Server\u00adside\/Client\u00adside scripting.",
+        "companyExpertise": "\u200bLondon\u00adbased media production company specializing in web design, corporate video production and digital marketing"
+    }, {
+        "companyTitle": "potato",
+        "companyDate": "potato",
+        "companySkillsapplied": "",
+        "companyProjectoutline": "ptato",
+        "companyExpertise": "potato"
+    }],
+ 
+    "list_year15": [{
+        "companyTitle": "abc",
+        "companyDate": "123",
+        "companySkillsapplied": "few3r4fr",
+        "companyProjectoutline": "asdfasf",
+        "companyExpertise": "asdf"
+    }, {
+        "companyTitle": "Matches Fashion",
+        "companyDate": "<p class=\"date-titleY\"><strong>september \u200b\u00ad- October<\/strong><\/p>",
+        "companySkillsapplied": "CSS3 and knowledge of table markup for selecting and optimizing responsive templates for each campaign. Media queries were used for desktop\/mobile friendly client rendering. Exposure to Matches Fashion\u2019s newer email platform Sailthru allowed for dynamic product, price and image links.",
+        "companyProjectoutline": "Covering for a developer on the CRM Team and maintaining day-to-day\/week-to-week campaign volume. I liaised with the CRM Team to generate mobile first responsive layouts for this period.",
+        "companyExpertise": "Designer Clothing, Women's and Men's Luxury Designer Clothes."
+    }, {
+        "companyTitle": "not on the high street",
+        "companyDate": "October - December",
+        "companySkillsapplied": "Exposure to creating layouts with the Handlebars.js Framework. Architecting fundamental layout content with the linked JSON file. Campaigns were tested on Litmus before pushing to the Bronto CRM platform. Git command line was used to back up the repository of campaigns.",
+        "companyProjectoutline": "Brought in to hit the ground running with the CRM and Creative Team. Tasked with developing responsive Email layouts using NOTHS bespoke Node.js based templating system. The Black Friday, Christmas and New Year period typically involve a great deal of unique one-off promotional content. Experience in Agile Development and planning around tight delivery deadlines proved invaluable here.",
+        "companyExpertise": "Unique Gift Ideas and Personalized Gifts."
+    }, {
+        "companyTitle": "salad",
+        "companyDate": "salad",
+        "companySkillsapplied": "",
+        "companyProjectoutline": "lollo olol",
+        "companyExpertise": "asfasd"
+    }, {
+        "companyTitle": "this gig here",
+        "companyDate": "asdfasdf ",
+        "companySkillsapplied": "asdfds asdfdsaf dfadsfadsfa adsfadsfasd",
+        "companyProjectoutline": "asdfdsa asdfdsaf asdfsadf adsfasd",
+        "companyExpertise": "asdfasd"
+    }, {
+        "companyTitle": "title1",
+        "companyDate": "asdfafafdasfasdfaafs",
+        "companySkillsapplied": "",
+        "companyProjectoutline": "asdfasdfasdfsfdasfasdfasdfa",
+        "companyExpertise": "asdfasdf"
+    }],
+ 
+    "list_year14": [{
+        "companyTitle": "tesco",
+        "companyDate": "christmas of 2014 is when....",
+        "companySkillsapplied": "i learned this at tesco",
+        "companyProjectoutline": "i did this for tesco",
+        "companyExpertise": "tesco do this"
+    }],
+ 
+    "list_year13": [{
+        "companyTitle": "molton brown",
+        "companyDate": "there in Nov 2013",
+        "companySkillsapplied": "skilled i applied there",
+        "companyProjectoutline": "the outlined project",
+        "companyExpertise": "this companies expertiese"
+    }],
+ 
+    "list_year12": [{
+        "companyTitle": "River Island",
+        "companyDate": "i was there over xmas 2012",
+        "companySkillsapplied": "my applied skills there",
+        "companyProjectoutline": "the work they needed done",
+        "companyExpertise": "what they do"
+    }],
+ 
+    "list_year11": ["list_year11", {
+        "companyTitle": "iProspermedia",
+        "companyDate": "this was 2011",
+        "companySkillsapplied": "work i did there html stuff",
+        "companyProjectoutline": "out lined proect work",
+        "companyExpertise": "what they do"
+    }],
+ 
+    "list_year10": ["list_year10", {
+        "companyTitle": "JWT (J Walter Thompson)",
+        "companyDate": "back in 2010",
+        "companySkillsapplied": "my skills applied",
+        "companyProjectoutline": "project requirements",
+        "companyExpertise": "what do they do"
+    }] 
+}
